@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('reservation_statuses', function (Blueprint $table) {
             $table->id();
-            $table->string('status_name');
+            $table->string('status_name');      // available, reserved
         });
     }
 

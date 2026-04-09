@@ -16,7 +16,7 @@ return new class extends Migration
             $table->integer('table_number');
             $table->integer('capacity');
             $table->string('location')->nullable();
-            $table->string('status')->default('available');
+            $table->string('status')->default('available');     // connected sa
             $table->timestamps();
         });
     }
